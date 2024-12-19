@@ -68,10 +68,5 @@ npx tailwindcss init
 ```
 
 ```sh
-npm install web-vitals
-npm install -D @types/web-vitals
-```
-
-```sh
 npm install -D tailwindcss postcss autoprefixer
 ```
