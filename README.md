@@ -48,3 +48,30 @@ export default tseslint.config({
   },
 })
 ```
+
+## React project setup
+```sh
+npm create vite@latest react-todo -- --template react-ts
+```
+
+```sh
+npm i @tanstack/react-query@4.28.0
+npm i @tanstack/react-query-devtools@4.28.0
+npm i zustand@4.3.6
+npm i @heroicons/react@2.0.16
+npm i react-router-dom@6.10.0 axios@1.3.4
+```
+
+```sh
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+```sh
+npm install web-vitals
+npm install -D @types/web-vitals
+```
+
+```sh
+npm install -D tailwindcss postcss autoprefixer
+```
